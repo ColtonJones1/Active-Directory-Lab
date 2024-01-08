@@ -9,7 +9,7 @@ Explore Active Directory (AD) hands-on! I've created a Windows Server 2019 and W
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b><Oracle Virtual Box/b>
+- <b><Oracle Virtual Box</b>
 
 <h2>Environments Used </h2>
 
@@ -20,7 +20,7 @@ Explore Active Directory (AD) hands-on! I've created a Windows Server 2019 and W
 
 <p align="center">
 Create an 'Admin' Organizational Unit (OU), add a user, and grant domain membership. This setup enhances administrative control and streamlines network management within Active Directory: <br/>
-<img src="https://i.imgur.com/a/ie2aFn5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a/UaUzXbo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
