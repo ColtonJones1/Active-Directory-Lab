@@ -9,7 +9,7 @@ Explore Active Directory (AD) hands-on! I've created a Windows Server 2019 and W
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b><Oracle Virtual Box</b>
+- <b>Oracle Virtual Box</b>
 
 <h2>Environments Used </h2>
 
@@ -19,32 +19,26 @@ Explore Active Directory (AD) hands-on! I've created a Windows Server 2019 and W
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Create an 'Admin' Organizational Unit (OU), add a user, and grant domain membership. This setup enhances administrative control and streamlines network management within Active Directory: <br/>
-<img src="https://i.imgur.com/a/UaUzXbo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configured DHCP on Windows Server 2019 for 24-hour leases, enabling connectivity for up to 80 devices in the Active Directory network:  <br/>
+<img src="https://i.imgur.com/FauPvUM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Created an 'Admin' Organizational Unit (OU), added a user, and granted domain membership. This setup enhances administrative control and streamlines network management within Active Directory: <br/>
+<img src="https://i.imgur.com/LeCZpdo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Created an 'IT Team' Organizational Unit (OU) in Active Directory, establishing sub-OUs mirroring a real infrastructure. Added users within the OUs to simulate a functional organizational structure:  <br/>
+<img src="https://i.imgur.com/4Yz2Xtf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Assigned OU members to a designated group in Active Directory, enhancing network security and resource allocation: <br/>
+<img src="https://i.imgur.com/loTLarp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Created AD users from a list using a Powershell script:  <br/>
+<img src="https://i.imgur.com/vSooVFX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
